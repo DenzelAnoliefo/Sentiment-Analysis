@@ -1,0 +1,35 @@
+Sentiment Analysis of Tweets
+
+Project Overview
+
+This project aims to analyze the sentiment of tweets using a list of predefined keywords and their associated sentiment scores. The sentiment of each tweet is determined by calculating the sentiment score based on the occurrence of keywords in the tweet text. Additionally, the project provides statistical insights such as the average sentiment of tweets, the number of positive, negative, and neutral tweets, as well as the average sentiment of favorited and retweeted tweets. Moreover, the project identifies the top five countries with the highest average sentiment scores.
+
+Features
+
+1. Read Keywords: Reads keywords and their associated sentiment scores from a file.
+2. Clean Tweet Text: Cleans tweet text by removing non-alphabetic characters and converting to lowercase.
+3. Calculate Sentiment: Calculates the sentiment score for each tweet based on the occurrence of keywords.
+4. Classify Sentiment: Classifies tweets as positive, negative, or neutral based on their sentiment scores.
+5. Read Tweets: Reads tweets from a CSV file, cleaning and formatting the data.
+6. Generate Report: Generates a report containing statistical insights about the sentiment analysis of tweets.
+7. Write Report: Writes the generated report to a file.
+
+Usage
+
+To use the project, follow these steps:
+
+1. Ensure you have Python installed on your system.
+2. Clone the repository to your local machine.
+3. Modify the keyword_file_name and tweet_file_name variables in the main.py file to point to your keyword file and tweet data file, respectively.
+4. Run the main.py script.
+5. The script will generate a report file containing statistical insights about the sentiment analysis of tweets.
+
+Dependencies
+
+This project requires Python 3.x.
+
+Author
+
+Chidera Denzel-Mark Anoliefo
+Student ID: 251363022
+Date: November 15th, 2023
