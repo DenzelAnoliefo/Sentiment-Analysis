@@ -1,9 +1,3 @@
-"""
-Chidera Denzel-Mark Anoliefo
-251363022
-November 15th, 2023
-"""
-
 import csv
 import re
 
